@@ -1,0 +1,320 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    padding: 6px;
+}
+.objects-banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 230px;
+    float:right;
+}
+.objects-banner a {
+    flex:2;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+}
+
+.objects-banner a:hover {
+    text-decoration:underline;
+}
+.box-google {
+    flex:1;
+    margin-left: 30px;
+}
+.google-apps {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.google-apps:hover {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.box {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+
+.b1 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b2 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b3 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b4 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b5 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b6 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b7 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b8 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b9 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+ .profile {
+    flex:1;
+    margin-left: 3px;
+ }
+ .box-profile {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    
+ }
+ .box-profile:hover {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+ }
+.imageprofile {
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.box-logo {
+    height: 290px;
+    position: relative;
+}
+.google-logo {
+    width: 270px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box-search {
+    height: 160px;
+    padding: 20px;
+    position: relative;
+    
+}
+.search-bar {
+    display:flex;
+    width: 585px;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    justify-content: space-between;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lupa-icon {
+    flex:1;
+    height: 22px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+input[type=text] {
+    flex:1;
+    width: 400px;
+    height: 45px;
+    font-size: 17px;
+    border: none;
+    outline: 0;
+}
+.search-icons {
+    margin: 10px;
+}
+.keyboard {
+    flex:1;
+    width: 25px;
+}
+.micgoogle{
+    flex:1;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Ggoogle {
+    flex:1;
+    height: 23px;
+    margin-right: 12px;
+}
+.buttons {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button1 {
+    width: 140px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 15px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+}
+.button1:hover {
+    width: 140px;
+    height: 36px;
+    border: none;
+    filter: drop-shadow(0px 0px 1px #777777);
+    border-radius: 3px;
+}
+
+.button2 {
+    width: 140px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+}
+.button2:hover {
+    width: 140px;
+    height: 36px;
+    border: none;
+    filter: drop-shadow(0px 0px 1px #777777);
+    border-radius: 3px;
+}
+.dropbox{
+    height: 255px;
+}
+footer {
+    height: 95px;
+    background-color: #f2f2f2;
+}
+.footer-top p {
+    padding: 15px;
+    margin-left: 25px;
+    color: #70757a;
+    font-size: 16px;
+}
+.footer-top {
+    height: 47px;
+    border-bottom: 1px solid #dadce0;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.right {
+    flex:1;
+    display: flex;
+    margin-left: 23px;
+}
+.right p {
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    color: #70757a;
+    font-size: 15px;
+}
+
+.right p:hover {
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    color: #70757a;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.footer-space {
+    flex:1;
+}
+
+.left {
+    flex:1;
+    display: flex;
+    float: left;
+    justify-content: right;
+    margin-right: 10px;
+}
+.left p{
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    color: #70757a;
+    font-size: 15px;
+}
+.left p:hover {
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    color: #70757a;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
